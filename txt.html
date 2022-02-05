@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEXT ANALYZER</title>
+    <link rel="stylesheet" href="./txt.css">
+</head>
+<body>
+        <div class = "container">
+            <div class = "container-class">
+                <div class = "data-entry">
+                    ><h2> TEXT ANALYZER</h2>
+                    <textarea rows ="7" placeholder="Type your text here..."></textarea>
+                     <button type ="button" id="processbtn" >  
+                    <input type="submit" value="Process Text" class="button">
+                </button>
+                </div>
+                <div class ="text-info">
+                    <h2> Text Analysis
+                        <ul class = "text-info-list">
+                        <li>
+                            <p>Character count:</p>
+                            <span id ="char"></span>
+                        </li>
+                        <li>
+                            <p>Word count:</p>
+                            <span id ="word"></span>
+                        </li>
+                        <li>
+                            <p>Sentences:</p>
+                            <span id ="sentence"></span>
+                        </li>
+                        <li>
+                            <p>Spaces:</p>
+                            <span id ="spaces"></span>
+                        </li>
+                        <li>
+                            <p>Punctuations:</p>
+                            <span id ="punctuation"></span>
+                        </li>
+                    </ul>
+                    </h2>
+                </div>
+            </div> 
+        </div>
+        <script src="./txt.js" defer></script>
+    </body>
+</html>
